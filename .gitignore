@@ -1,0 +1,45 @@
+# 新建Eclipse 動態Web專案時覺得可以先略過的部分
+.settings
+/build/
+.classpath
+/log/
+*.log
+/target/
+
+# 通常會包含依賴的配置, 每個人的環境可能會不太一樣, 先略過看看
+.project
+
+### 以下為網路上抄來建議忽略的檔案
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Annotation Processing
+.apt_generated/
+.apt_generated_test/
+
+### Eclipse Patch ###
+# Spring Boot Tooling
+.sts4-cache/
+
